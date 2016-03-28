@@ -19,14 +19,14 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DeepShare"
+  s.homepage         = "https://www.deepshare.io/"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "gxl817" => "gaoxiaolan817@163.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DeepShare.git", :tag => s.version.to_s }
+  s.author           = "https://www.deepshare.io/"
+  s.source           = { :git => "https://github.com/gxl817/DeepShare.git"}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

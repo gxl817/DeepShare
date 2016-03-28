@@ -1,0 +1,6 @@
+framework module DeepShare {
+  umbrella header "DeepShare-umbrella.h"
+
+  export *
+  module * { export * }
+}

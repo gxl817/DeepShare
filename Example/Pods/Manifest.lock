@@ -1,0 +1,14 @@
+PODS:
+  - DeepShare (0.1.0)
+
+DEPENDENCIES:
+  - DeepShare (from `../`)
+
+EXTERNAL SOURCES:
+  DeepShare:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DeepShare: c9ae80601819389fc25e2854cf2147bc8021ad5d
+
+COCOAPODS: 0.39.0
