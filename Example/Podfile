@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DeepShare_Example', :exclusive => true do
+  pod 'DeepShare', :path => '../'
+end
+
+target 'DeepShare_Tests', :exclusive => true do
+  pod 'DeepShare', :path => '../'
+
+  
+end
